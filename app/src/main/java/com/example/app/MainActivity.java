@@ -21,10 +21,10 @@ public class MainActivity extends Activity {
         mWebView.setWebViewClient(new MyWebViewClient());
 
         // REMOTE RESOURCE
-        // mWebView.loadUrl("https://example.com");
+        mWebView.loadUrl("https://yourwebsite.com"); // Replace with your actual website URL
 
         // LOCAL RESOURCE
-        // mWebView.loadUrl("file:///android_asset/index.html");
+        // mWebView.loadUrl("https://roneat-studio-pro.gitbook.io/roneat-studio-pro-docs/");
     }
 
     @Override
